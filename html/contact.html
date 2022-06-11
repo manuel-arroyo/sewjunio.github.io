@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="icon" type="image/x-icon" href="/public/img/logo/fav_ico.ico">
+
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+    <!-- Js Imports--> 
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/html/index.html">
+                        <img src="/public/img/logo/main_logo.png" alt="LOWERCASE Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/index.html">
+                        Inicio
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/php/view_products.php">
+                        Tienda
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/html/contact.html">
+                        Contacto
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/html/switches.html">
+                        Switches
+                    </a>
+                    <hr>
+                </li> 
+            </ul>   
+        </nav>
+    </header>
+         
+    <main>    
+        <article>
+            <h1>Soporte Técnico</h1>
+            <p>Si quiere ponerse en contacto con nuestro departamento de atención al cliente debe rellenar el siguiente formulario de consulta:</p>
+            <hr>
+
+            <form action="https://formsubmit.co/suport.lowercase@gmail.com" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required><br><br>
+                <label for="title">Titulo</label>
+                <input type="text" id="title" name="title" placeholder="Asunto" required><br><br>
+                <label for="text">Consulta</label>
+                <textarea id="text" name="text" placeholder="Escribe aquí tu consulta..." required></textarea><br><br>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://localhost/html/sended.html">
+                
+                <input type="submit" value="ENVIAR">
+            </form>
+       </article>
+    </main>
+   
+    <footer>
+        <hr>
+        <ul>
+            <li>
+                <p>Por Manuel Arroyo García</p>
+                <p>Escuela de Ingenieria Informática</p>
+                <p>Oviedo - Mayo 2022</p>
+            </li>
+            <li>
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                     alt=" HTML5 Válido!">
+                </a>
+            </li>
+            <li>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://jigsaw.w3.org/css-validator/images/vcss"
+                         alt="¡CSS Válido!" />
+                    </a>
+                </p>
+        
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                         alt="¡CSS Válido!" />
+                    </a>
+                </p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

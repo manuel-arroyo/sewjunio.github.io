@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pedido SYSTEM "pedido.dtd">
+<pedido numero="1">
+    <fecha_pedido>2022-01-30</fecha_pedido>
+    <fecha_llegada>2022-01-30</fecha_llegada>
+    <lotes numero="1">
+        <fecha_creacion>2022-02-14</fecha_creacion>
+        <productos>
+            <producto stock="true">
+                <nombre>PC60B Blue and White</nombre>
+                <precio>117.6</precio>
+                <img_link>/public/img/keyboards/PC60B.jpg</img_link>
+                <descripcion>Modelo de colores. Permite controlar el volumen</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>Monet Pond 205v2</nombre>
+                <precio>105.6</precio>
+                <img_link>/public/img/keyboards/Monet_Pond.jpg</img_link>
+                <descripcion>Uno de nuestros primeros modelos. Da la sensacion de teclear en un estanque.</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>King Koi 3005v1</nombre>
+                <precio>95.6</precio>
+                <img_link>/public/img/keyboards/King_koi.jpg</img_link>
+                <descripcion>Nuestro segundo modelo de la colección koi. Más minimalista</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>Lila kiss v1</nombre>
+                <precio>65.6</precio>
+                <img_link>/public/img/keyboards/teclado_lila.bmp</img_link>
+                <descripcion>Para los amantes del lila llega este elegante teclado a un precio muy asequible sin recortar prestaciones.</descripcion>
+            </producto>
+        </productos>
+    </lotes>
+    <lotes numero="2">
+        <fecha_creacion>2022-03-24</fecha_creacion>
+        <productos>
+            <producto stock="false">
+                <nombre>Ratón logitech</nombre>
+                <precio>34.6</precio>
+                <img_link>/public/img/keyboards/logitech mx ergo.jpg</img_link>
+                <descripcion>Ratón básico de logitech.</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>Vertical Mouse</nombre>
+                <precio>40.6</precio>
+                <img_link>/public/img/keyboards/anker_vertical.jpg</img_link>
+                <descripcion>El diseño ergonómico científico fomenta posiciones de muñeca y brazo de "apretón de manos" neutrales y saludables para un movimiento más suave y menos tensión general. | La tecnología de seguimiento óptico de resolución de 800/1200/1600 DPI proporciona más sensibilidad que los ratones ópticos estándar para un seguimiento suave y preciso en una amplia gama de superficies.</descripcion>
+            </producto>
+            <producto stock="false">
+                <nombre>GMK Fenglisu</nombre>
+                <precio>95.6</precio>
+                <img_link>/public/img/keyboards/gmk_fenglisu.bmp</img_link>
+                <descripcion>desc</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>GMK Fenglisu v2</nombre>
+                <precio>139</precio>
+                <img_link>/public/img/keyboards/gmk_fenglisu_v2.bmp</img_link>
+                <descripcion>Este conjunto se inspira en una excursión a Taiwán previa a la pandemia, donde los diseñadores quedaron cautivados por el postre más reconocido, posiblemente, el pastel de piña taiwanés.Fenglisu son pequeños dulces delicados con un exterior de hojaldre desmenuzable que se rellenan con mermelada de piña dulce.</descripcion>
+            </producto>
+            <producto stock="true">
+                <nombre>HHKB Pro</nombre>
+                <precio>340</precio>
+                <img_link>/public/img/keyboards/hhkb_pro.bmp</img_link>
+                <descripcion>Las opciones de conectividad híbridas y los interruptores de tecla silenciosos crean una experiencia màs tranquila en todos tus dispositivos modernos.</descripcion>
+            </producto>
+        </productos>
+    </lotes>
+</pedido>

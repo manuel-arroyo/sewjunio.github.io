@@ -1,0 +1,13 @@
+/*
+07/04/2022
+Author - Manuel Arroyo Garcia
+Proyecto S.E.W. 2022
+
+En este archivo se encuentran estilos relativos a elementos de las paginas que
+aparecen al completar una accion como realizar un formulario o comprar.
+*/
+/* ------------------ Success pages Style -------------------- */
+
+article {
+    text-align: center;
+}

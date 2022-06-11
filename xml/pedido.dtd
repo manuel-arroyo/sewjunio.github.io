@@ -1,0 +1,17 @@
+<!ELEMENT pedido (fecha_pedido, fecha_llegada, lotes+)>
+<!ELEMENT fecha_pedido (#PCDATA)>
+<!ELEMENT fecha_llegada (#PCDATA)>
+<!ELEMENT lotes (fecha_creacion, productos)>
+<!ELEMENT fecha_creacion (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre, precio, img_link, descripcion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT img_link (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST pedido 
+	numero CDATA #REQUIRED>
+<!ATTLIST lotes 
+	numero CDATA #REQUIRED>
+<!ATTLIST producto 
+	stock CDATA #REQUIRED>

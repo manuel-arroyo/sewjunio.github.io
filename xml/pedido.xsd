@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="pedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:date" name="fecha_pedido"/>
+        <xs:element type="xs:date" name="fecha_llegada"/>
+        <xs:element name="lotes" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:date" name="fecha_creacion"/>
+              <xs:element name="productos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="producto" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nombre"/>
+                          <xs:element type="xs:float" name="precio"/>
+                          <xs:element type="xs:string" name="img_link"/>
+                          <xs:element type="xs:string" name="descripcion"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:boolean" name="stock" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:integer" name="numero"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:integer" name="numero"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+/*
+08/06/2022
+
+Author - Manuel Arroyo Garcia
+
+Proyecto S.E.W. 2022
+------------------- Estilos Switches --------------------- */
+:root {
+  --alternative-black: #5F5F60;
+  --background-color: #ecedef;
+}
+
+
+main ul {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 2fr));
+  column-gap: 2.5%;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+section> p{ 
+  text-align: justify;
+}
+
+table{
+  display: block;
+  margin: 0 auto;
+  max-width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: left;
+}
+table tr:nth-child(even){
+  background-color: #e6e6e6;
+}
+table th, td {
+  padding: 1vh;
+  text-align: left;  
+  border-bottom: 1px solid var(--alternative-black);
+}

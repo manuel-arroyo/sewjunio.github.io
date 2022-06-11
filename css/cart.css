@@ -1,0 +1,119 @@
+    /*
+Version 0.1 - 19/04/2022
+
+Author - Manuel Arroyo Garcia
+
+Proyecto S.E.W. 2022
+
+Estilos necesarios para la ventana del carrito
+*/
+
+:root {
+    --alternative-black: #5F5F60;
+    --background-color: #ecedef;
+}
+
+#map {
+    height: 40vh;
+    width: 85%;
+    border: 1px solid var(--alternative-black);
+    margin: 0 7.5%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main>section:first-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+main>section:first-child>:nth-child(-n+3) {
+    flex: 1 0 100%;
+}
+main>section:first-child>:nth-child(n+4) {
+    flex: 1 0 content;
+    width: 45%;
+}
+
+main > hr {
+    width: 25%;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    list-style-type: none;
+    padding: 0;
+    max-width: 96%;
+
+}
+
+main li {
+    display: grid;
+    grid-template-columns: minmax(0, 40%) repeat(3, minmax(0, 20%));
+    grid-template-rows: 60% 40%;
+    margin: 2% 0;
+    border: 1px solid rgb(137, 137, 137);
+}
+
+main li * {
+    overflow: hidden;
+    min-width: 0;
+    align-self: center;
+}
+
+main li>img { 
+    grid-area:  1 / 1 / 3 / 2; 
+    width: 100%;
+    height: auto;
+
+}
+main li :nth-child(2)   { grid-area:  1 / 2 / 2 / 4; }
+main li :nth-child(3)   { grid-area:  2 / 2 / 3 / 3; }
+main li :nth-child(4)   { grid-area:  2 / 3 / 3 / 4; }
+main li :nth-child(5)   { grid-area:  1 / 4 / 3 / 5; } 
+main li>a>img {
+    height: 32px;
+    width: 32px;
+}
+
+main section section h2 {
+    margin-bottom: 0;
+}
+
+main section section  input {
+    text-align: center;
+    height: 7%;
+    width: 20%;
+    border: 1px solid var(--alternative-black);
+    font-size: 1em;
+}
+
+main section:nth-child(2) {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+main section:nth-child(2)>input {
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 2%;
+}
+
+main section:nth-child(2)>button, main>button {
+    display: block;
+    margin: 1% auto;
+    width: 40%;
+    height: 5vh;
+    background-color: #333333;
+    border: none;
+    color: white;
+    transition: box-shadow 0.15s;
+}
+
+main section:nth-child(2)>button:hover, main>button:hover {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}

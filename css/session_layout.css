@@ -1,0 +1,56 @@
+/*
+02/06/2022
+
+Author - Manuel Arroyo Garcia
+
+Proyecto S.E.W. 2022
+*/
+/* ---------- Estilos Login y register Form ---------- */
+article {
+    text-align: center;
+}
+
+article hr{
+  width: 10%;
+  min-width: 7em;
+}
+
+form {
+  text-align: center;
+}
+
+form label {
+    display: none;
+}
+
+form input, article a {
+  display: block;
+  padding: 0.8% 0; 
+  margin: auto;
+  width: 20vw; 
+  min-width: 15em;
+  font-size: 0.9em;
+}
+article a {
+  margin: 2% auto;
+  font-size: 1em;
+  
+}
+
+
+
+
+
+form input:last-of-type {
+    background-color: #333333;
+    border: none;
+    color: white;
+}
+form input:last-of-type:hover  {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}
+
+form p {
+  font-size: 0.8em;
+  color: #cc0000;
+}

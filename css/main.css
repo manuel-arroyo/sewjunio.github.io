@@ -1,0 +1,159 @@
+/*
+07/04/2022
+Author - Manuel Arroyo Garcia
+Proyecto S.E.W. 2022
+
+En este archivo se encuentran estilos relativos a elementos que comparten muchas
+vistas del sitio.
+*/
+
+:root {
+    --alternative-black: #5F5F60;
+    --background-color: #ecedef;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-color);
+    color: rgb(0, 0, 0);
+    font-size: 1.25em;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+main>section,
+main>section>h1 {
+    text-align: left;
+}
+
+main {
+    margin: 0 1%;
+}
+main label {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border-top: 1px solid #000;
+    background-color: black;
+}
+
+/* ------------- Pages banners ------------- */
+
+header {
+    background-color: var(--background-color);
+}
+
+header h1 {
+    padding: 0 55% 0 0;
+    color: #000000;
+    font-size: 6vh;
+}
+
+#index-banner {
+    background-image: url('/public/img/banners/index_banner.bmp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99vw;
+    height: 60vh;
+    background-size: 99vw auto;
+}
+
+#switches-banner {
+    background-image: url('/public/img/banners/switches_banner.bmp');
+    height: 25em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99vw;
+}
+
+
+/* ------------------ Nav Style -------------------- */
+
+nav {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+nav>ul>li{
+    padding: 1em 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav>ul img {
+    max-width: 50%;
+}
+nav li:nth-child(1) {
+    width: 10%;
+    min-width: 7em;
+    padding: 0;
+}
+nav li:nth-child(1) img {
+    min-width: 10em;
+}
+nav li:last-child{
+    width: 6%;
+    min-width: 6em;
+}
+nav li:last-child img{
+    min-width: 0.5em;
+}
+nav li hr {
+    opacity: 0;
+    width: 0;
+    transition: all 0.3s;
+}
+nav a:hover + hr {
+    opacity: 1;
+    width: 100%;
+}
+
+/* ------------------ Footer Style -------------------- */
+
+footer {
+    padding-top: 5vh;
+    position: relative;
+    bottom: 0;
+    background-color: var(--background-color);
+}
+
+footer>hr {
+    width: 8em;
+}
+
+footer li {
+    display: inline;
+    float: left;
+}
+
+footer li:nth-child(n+2) {
+    display: inline;
+    float: right;
+}
+
+footer li:nth-child(2) {
+    margin: 5vh 5vh 0;
+}
+
+
+footer p>a>img {
+    border: 0;
+}
+
+footer li >img {
+    border: 0;
+    width: auto;
+}

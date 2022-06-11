@@ -1,0 +1,156 @@
+/*
+07/04/2022
+Author - Manuel Arroyo Garcia
+Proyecto S.E.W. 2022
+
+Este archivo contiene todos los estilos relacionados con los 
+productos.
+*/
+
+:root {
+    --alternative-black: #5F5F60;
+    --background-color: #ecedef;
+}
+
+
+/* ---------- Products List style ---------*/
+
+
+main > section:nth-child(1) label, main > section:nth-child(1) input {
+    display: none;
+}
+
+#import_btn {
+    margin-top: 2vh;
+    width: 25%;
+    min-width: 200px;
+    height: 30%;
+    min-height: 40px;
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+#import_btn:hover {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}
+
+main {
+    padding: 0 10%;    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+main > section:nth-child(1) {
+    width: 100%;
+    display: inline; 
+    padding-bottom: 5%;
+}
+
+main > section:nth-child(n+2) {
+    margin: 2% 1%;
+    flex: 1 29%;
+    width: 29%;
+    min-width: 200px;
+    border: 1px solid rgb(137, 137, 137);
+    transition: box-shadow 0.3s;
+}
+
+main> section:nth-child(n+2):hover {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}
+
+main img {
+    padding: 0;
+    max-width: 100%;
+    height: 70%;
+    width: 100%;
+}
+
+
+main>section:nth-child(n+2) :nth-child(n+2):nth-child(-n+3) {    
+    padding: 0 2.5%;
+    text-align: left;    
+    line-height: 16px;
+}
+
+main>section:nth-child(n+2) :nth-child(n+4) {    
+    height: 5%;
+    margin: 0 2.5% 100px;  
+    line-height: 16px;
+}
+
+
+main>section>h2 {
+    font-size: 1em;
+} 
+main>section>p {
+    color: dodgerblue;
+}   
+
+main>section>input {
+    width: 15%;
+    border: 1px solid var(--alternative-black);
+}
+
+main>section>button {
+    text-align: center;
+    width: 50%;
+    background-color: #333333;
+    border: none;
+    color: white;
+    transition: box-shadow 0.15s;
+    
+}
+
+main>section>button:hover {
+    box-shadow: -2px 3px 9px 0px #5F5F60;
+}
+
+
+/*-------- single product --------*/
+
+article {
+    width: 40vw;
+    display: inline-block;
+    padding: 2%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+#products-container>img {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    border: 1px solid var(--alternative-black);
+    margin: 1%;
+}
+
+
+
+#products-container > button {
+    height: 5vh;
+    width: 15vw;
+    
+}
+
+article button {
+    margin-top: 0.8em;
+    height: 4.5vmin;
+    width: 30vmin;
+}
+
+
+article input {
+    height: 4vmin;
+    width: 15vmin;
+    border: 1px solid var(--alternative-black);
+}
+
+
+
