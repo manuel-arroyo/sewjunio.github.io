@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <link rel="icon" type="image/x-icon" href="/public/img/logo/fav_ico.ico">
+
+    <!-- Css imports-->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/products.css">
+
+    <!-- Js Imports-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/session.js"></script>
+    <script src="/js/util.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/html/index.html">
+                        <img src="/public/img/logo/main_logo.png" alt="LOWERCASE Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/index.html">
+                        Inicio
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/php/view_products.php">
+                        Tienda
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/html/contact.html">
+                        Contacto
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/html/switches.html">
+                        Switches
+                    </a>
+                    <hr>
+                </li>
+        
+                     
+
+                <li>
+                    <a href="/html/register.html">
+                        Registrarse
+                    </a>
+                    <hr>
+                </li> 
+                <li>
+                    <a href="/html/login.html">
+                        Iniciar Sesión
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="/html/cart.html">
+                        <img src="/public/img/icons/carrito-de-compras.png" alt="Carrito">
+                    </a>
+                </li>
+            </ul>   
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Lista de Productos</h1>
+            <hr>
+        </section>
+
+
+        <section>  <img src="/public/img/keyboards/hhkb_pro.bmp" alt="Image of HHKB Pro">  <h2>HHKB Pro</h2>  <p>340 €</p>  <label for="cantidad_27">Uds.</label>  <input type="number" id="cantidad_27" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(27)">Añadir al Carrito</button>  <p hidden id="27"></section><section>  <img src="/public/img/keyboards/gmk_fenglisu_v2.bmp" alt="Image of GMK Fenglisu v2">  <h2>GMK Fenglisu v2</h2>  <p>139 €</p>  <label for="cantidad_26">Uds.</label>  <input type="number" id="cantidad_26" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(26)">Añadir al Carrito</button>  <p hidden id="26"></section><section>  <img src="/public/img/keyboards/anker_vertical.jpg" alt="Image of Vertical Mouse">  <h2>Vertical Mouse</h2>  <p>40 €</p>  <label for="cantidad_25">Uds.</label>  <input type="number" id="cantidad_25" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(25)">Añadir al Carrito</button>  <p hidden id="25"></section><section>  <img src="/public/img/keyboards/teclado_lila.bmp" alt="Image of Lila kiss v1">  <h2>Lila kiss v1</h2>  <p>65 €</p>  <label for="cantidad_24">Uds.</label>  <input type="number" id="cantidad_24" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(24)">Añadir al Carrito</button>  <p hidden id="24"></section><section>  <img src="/public/img/keyboards/King_koi.jpg" alt="Image of King Koi 3005v1">  <h2>King Koi 3005v1</h2>  <p>95 €</p>  <label for="cantidad_23">Uds.</label>  <input type="number" id="cantidad_23" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(23)">Añadir al Carrito</button>  <p hidden id="23"></section><section>  <img src="/public/img/keyboards/Monet_Pond.jpg" alt="Image of Monet Pond 205v2">  <h2>Monet Pond 205v2</h2>  <p>105 €</p>  <label for="cantidad_22">Uds.</label>  <input type="number" id="cantidad_22" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(22)">Añadir al Carrito</button>  <p hidden id="22"></section><section>  <img src="/public/img/keyboards/PC60B.jpg" alt="Image of PC60B Blue and White">  <h2>PC60B Blue and White</h2>  <p>117 €</p>  <label for="cantidad_21">Uds.</label>  <input type="number" id="cantidad_21" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(21)">Añadir al Carrito</button>  <p hidden id="21"></section><section>  <img src="/public/img/keyboards/world_tour_tokyo.bmp" alt="Image of World Tour-Tokyo">  <h2>World Tour-Tokyo</h2>  <p>99 €</p>  <label for="cantidad_2">Uds.</label>  <input type="number" id="cantidad_2" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(2)">Añadir al Carrito</button>  <p hidden id="2"></section><section>  <img src="/public/img/keyboards/steam_engine.bmp" alt="Image of Steam Engine v2">  <h2>Steam Engine v2</h2>  <p>91 €</p>  <label for="cantidad_1">Uds.</label>  <input type="number" id="cantidad_1" name="cantidad" value="1" min="0" max="10">  <button name="buy"  onclick="products.addToCart(1)">Añadir al Carrito</button>  <p hidden id="1"></section>    </main>
+
+    <footer>
+        <hr>
+        <ul>
+            <li>
+                <p>Por Manuel Arroyo García</p>
+                <p>Escuela de Ingenieria Informática</p>
+                <p>Oviedo - Mayo 2022</p>
+            </li>
+            <li>
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                    alt=" HTML5 Válido!">
+                </a>
+            </li>
+            <li>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="¡CSS Válido!" />
+                    </a>
+                </p>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
