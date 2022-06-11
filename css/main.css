@@ -59,7 +59,7 @@ header h1 {
 }
 
 #index-banner {
-    background-image: url('/public/img/banners/index_banner.bmp');
+    background-image: url('/sewjunio.github.io/public/img/banners/index_banner.bmp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 99vw;
@@ -68,7 +68,7 @@ header h1 {
 }
 
 #switches-banner {
-    background-image: url('/public/img/banners/switches_banner.bmp');
+    background-image: url('/sewjunio.github.io/public/img/banners/switches_banner.bmp');
     height: 25em;
     background-repeat: no-repeat;
     background-position: center;

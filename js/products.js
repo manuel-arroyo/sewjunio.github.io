@@ -7,7 +7,7 @@ class Products {
     loadData() {
         var action = "Load";
         $.ajax({
-            url: "/php/product_handler.php",
+            url: "/sewjunio.github.io/php/product_handler.php",
             method: "POST",
             data: { action: action },
             success: function(data) {
@@ -20,7 +20,7 @@ class Products {
         debugger
         var action = "Delete";
         $.ajax({
-            url: "/php/product_handler.php",
+            url: "/sewjunio.github.io/php/product_handler.php",
             method: "POST",
             data: {
                 action: action,
@@ -129,7 +129,7 @@ class Products {
         var action = "Insert";
         if (products.length > 0) {
             $.ajax({
-                url: "/php/product_handler.php",
+                url: "/sewjunio.github.io/php/product_handler.php",
                 method: "POST",
                 data: {
                     action: action,

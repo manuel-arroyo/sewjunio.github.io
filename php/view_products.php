@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos</title>
-    <link rel="icon" type="image/x-icon" href="/public/img/logo/fav_ico.ico">
+    <link rel="icon" type="image/x-icon" href="/sewjunio.github.io/public/img/logo/fav_ico.ico">
 
     <!-- Css imports-->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/products.css">
+    <link rel="stylesheet" type="text/css" href="/sewjunio.github.io/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/sewjunio.github.io/css/products.css">
 
     <!-- Js Imports-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/js/products.js"></script>
-    <script src="/js/session.js"></script>
-    <script src="/js/util.js"></script>
+    <script src="/sewjunio.github.io/js/products.js"></script>
+    <script src="/sewjunio.github.io/js/session.js"></script>
+    <script src="/sewjunio.github.io/js/util.js"></script>
 </head>
 
 <body>
@@ -23,30 +23,30 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/html/index.html">
-                        <img src="/public/img/logo/main_logo.png" alt="LOWERCASE Logo">
+                    <a href="/sewjunio.github.io/html/html/index.html">
+                        <img src="/sewjunio.github.io/public/img/logo/main_logo.png" alt="LOWERCASE Logo">
                     </a>
                 </li>
                 <li>
-                    <a href="/html/index.html">
+                    <a href="/sewjunio.github.io/html/html/index.html">
                         Inicio
                     </a>
                     <hr>
                 </li>
                 <li>
-                    <a href="/php/view_products.php">
+                    <a href="/sewjunio.github.io/html/sewjunio.github.io/php/view_products.php">
                         Tienda
                     </a>
                     <hr>
                 </li>
                 <li>
-                    <a href="/html/contact.html">
+                    <a href="/sewjunio.github.io/html/html/contact.html">
                         Contacto
                     </a>
                     <hr>
                 </li>
                 <li>
-                    <a href="/html/switches.html">
+                    <a href="/sewjunio.github.io/html/html/switches.html">
                         Switches
                     </a>
                     <hr>
@@ -55,20 +55,20 @@
                      
 
                 <li>
-                    <a href="/html/register.html">
+                    <a href="/sewjunio.github.io/html/html/register.html">
                         Registrarse
                     </a>
                     <hr>
                 </li> 
                 <li>
-                    <a href="/html/login.html">
+                    <a href="/sewjunio.github.io/html/html/login.html">
                         Iniciar Sesión
                     </a>
                     <hr>
                 </li>
                 <li>
-                    <a href="/html/cart.html">
-                        <img src="/public/img/icons/carrito-de-compras.png" alt="Carrito">
+                    <a href="/sewjunio.github.io/html/html/cart.html">
+                        <img src="/sewjunio.github.io/public/img/icons/carrito-de-compras.png" alt="Carrito">
                     </a>
                 </li>
             </ul>   

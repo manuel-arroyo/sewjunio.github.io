@@ -9,7 +9,7 @@ class Cart {
             let product_ids = JSON.parse(localStorage.cart).map(e => e.product_id);
             var action = "Get";
             $.ajax({
-                url: "/php/product_handler.php",
+                url: "/sewjunio.github.io/php/product_handler.php",
                 method: "POST",
                 data: {
                     action: action,
@@ -40,7 +40,7 @@ class Cart {
 
             // Aprovechamos para incluir el boton de eliminar
             let remove_btn = document.createElement("a");
-            remove_btn.innerHTML = ' <img src="/public/img/icons/papelera-de-reciclaje.png" alt ="Eliminar">';
+            remove_btn.innerHTML = ' <img src="/sewjunio.github.io/public/img/icons/papelera-de-reciclaje.png" alt ="Eliminar">';
             remove_btn.onclick = function() {
                 self.removeFromCart(i);
             }
@@ -66,7 +66,7 @@ class Cart {
         var action = "Create";
         let self = this;
         $.ajax({
-            url: "/php/cart_handler.php",
+            url: "/sewjunio.github.io/php/cart_handler.php",
             method: "POST",
             data: {
                 action: action,
@@ -82,7 +82,7 @@ class Cart {
     createInvoice(prod_count, user_id, total, direction) {
         var action = "Invoice";
         $.ajax({
-            url: "/php/cart_handler.php",
+            url: "/sewjunio.github.io/php/cart_handler.php",
             method: "POST",
             data: {
                 action: action,
